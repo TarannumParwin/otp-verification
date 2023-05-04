@@ -1,0 +1,53 @@
+.phone-verification-container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Manrope', sans-serif;
+}
+.form_Container{
+  text-align: center;
+}
+.input_wrapper{
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  margin: auto;
+}
+.input_item{
+  margin-bottom: 10px;
+  height: 28px;
+}
+.btn{
+  background: green;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.otp-popup{
+  text-align: center;
+}
+.otp-input-container{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.otp-input-container input{
+  border: none;
+  border-bottom: 2px solid gray;
+  width: 30px;
+  margin-right: 5px;
+  outline: none;
+  text-align: center;
+  color:green
+}
+.Change_Resend_container{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  color: green;
+}
